@@ -9,7 +9,8 @@ day_img = pygame.image.load("..\\images\\day.jpg").convert()
 night_img = pygame.image.load("..\\images\\night.jpg").convert_alpha()
 day = cv2.imread("..\\images\\day.jpg")
 night = cv2.imread("..\\images\\night.jpg")
-screen.blit(day_img, (0, 0)) 
+screen.blit(day_img, (0, 0))
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
